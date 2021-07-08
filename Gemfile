@@ -9,7 +9,7 @@ group :development do
   gem 'prettybacon'
   gem 'rake'
   gem 'vcr'
-  gem 'webmock', '< 1.9'
+  gem 'webmock', '>= 1.8.11', '< 1.9'
 
   # Ruby 1.8.7
   gem 'mime-types', '< 2.0'
